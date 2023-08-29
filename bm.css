@@ -33,15 +33,15 @@
                     font-family: Georgia, 'Times New Roman', Times, serif
                 }
                 .bmi{
-                    padding-left: 500px;
-                    padding-top: 300px;
+                    padding-left: 300px;
+                    padding-top: 200px;
                 }
                 #w,#h{
                     margin-left: 40px;
                     padding-left: 10px;
                     border-color: black;
-                    height: 50px;
-                    width: 400px;
+                    height: 40px;
+                    width: 300px;
                 }
                 #para,#pa{
                     padding-left: 50px;

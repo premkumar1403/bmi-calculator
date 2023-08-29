@@ -13,11 +13,9 @@
    <p><input type="number" placeholder="weight(kg)" id="w"></p>
    <p><input type="number" placeholder="height(cm)" id="h"></p>
 </div>
-   <button onclick="calculateBMI()" class="but">calculate</button>
-   <div class="answer">
-   <p id="para"></p>
-   <p id="pa"></p>
-</div>
+   <button onclick="calculateBMI()" class="but">calculate</button><br><br>
+   <span id="para"></span><br>
+   <span id="pa"></span>
 </div>
 
 <script>
@@ -31,13 +29,13 @@
          document.getElementById('para').innerHTML = "BMI: " + ans.toFixed(1);
      if(ans!=NaN){
      if(ans>=30.0)
-         document.getElementById("pa").innerHTML="obisity";
+         document.getElementById("pa").innerHTML="Obisity";
      else if(ans>=25.0 && ans<=29.9)
-         document.getElementById("pa").innerHTML="overweight";
+         document.getElementById("pa").innerHTML="Over Weight";
      else if(ans>=18.5 && ans<=24.9)
-         document.getElementById("pa").innerHTML="healthy weight";
+         document.getElementById("pa").innerHTML="Healthy Weight";
      else
-         document.getElementById("pa").innerHTML="under weight";
+         document.getElementById("pa").innerHTML="Under Weight";
      }
    } 
 </script>
