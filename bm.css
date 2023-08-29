@@ -5,20 +5,112 @@
         padding-top: 100px;
     }
     }
+    @media screen and (min-width: 320px){
+        .bmi{
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+        }
+        @media screen and (min-width: 768px){
+            .bmi{
+                padding-left: 300px;
+                padding-top: 100px;
+            }
+            }
+            @media screen and (min-width: 1024px){
+                
+                .but{
+                    margin-left: 150px;
+                    height: 30px;
+                    width: 100px;
+                    font-size: 20px;
+                    color: brown;
+                    background-color:whitesmoke;
+                    border-color: black;
+                }
+                .top{
+                    font-size: 40px;
+                    font-family: Georgia, 'Times New Roman', Times, serif
+                }
+                .bmi{
+                    padding-left: 500px;
+                    padding-top: 300px;
+                }
+                #w,#h{
+                    margin-left: 40px;
+                    padding-left: 10px;
+                    border-color: black;
+                    height: 50px;
+                    width: 400px;
+                }
+                #para,#pa{
+                    padding-left: 50px;
+                    font-size: 40px;
+                }
+
+                }
     @media screen and (min-width: 1440px)
     {
-        .bmi{
-        padding-top: 200px;
-        padding-left: 630px;
-    }
-    }
-    @media screen and (min-width: 2560px){
+        
+        .but{
+            margin-left: 170px;
+            height: 50px;
+            width: 150px;
+            font-size: 20px;
+            color: brown;
+            background-color:whitesmoke;
+            border-color: black;
+        }
         .top{
-            font-size: 40px;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif
         }
         .bmi{
-             padding-top: 300px;
-             padding-left: 500px;
+            padding-left: 700px;
+            padding-top: 200px;
+        }
+        #w,#h{
+            margin-left: 40px;
+            padding-left: 10px;
+            border-color: black;
+            height: 50px;
+            width: 400px;
+            font-size: 40px;
+        }
+        #para,#pa{
+            padding-left: 50px;
+            font-size: 40px;
+        }
+    }
+    /*@media screen and (min-width: 2560px){
+         
+        .but{
+            margin-left: 150px;
+            height: 40px;
+            width: 150px;
+            font-size: 25px;
+            color: brown;
+            background-color:whitesmoke;
+            border-color: black;
+        }
+        .top{
+            font-size: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+        .bmi{
+            padding-left: 320px;
+            padding-top: 200px;
+        }
+        #w,#h{
+            margin-left: 40px;
+            padding-left: 10px;
+            border-color: black;
+            height: 30px;
+            width: 300px;
+        }
+        #para,#pa{
+            padding-left: 50px;
+            font-size: 50px;
         }
        
     }
