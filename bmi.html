@@ -1,9 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bm.css">
 </head>
 <body>
 <div class="bmi">
-   <h1>BMI CALCULATOR</h1>
+   <h1 class="top">BMI CALCULATOR</h1>
    <div class="head">
    <p><input type="number" placeholder="weight(kg)" id="w"></p>
    <p><input type="number" placeholder="height(cm)" id="h"></p>
@@ -14,22 +19,7 @@
    <p id="pa"></p>
 </div>
 </div>
-<style>
-    .head{
-        padding-left: 50px;
-    }
-   .bmi{
-      padding-left:650px;
-      padding-top:100px;
-   }
-   .but{
-    margin-left: 100px;
-   }
-   .answer{
-    padding-left:70px ;
-   }
-  
-</style>
+
 <script>
      function calculateBMI(){
          let w = document.getElementById('w').value;
@@ -51,6 +41,5 @@
      }
    } 
 </script>
-
 </body>
 </html>

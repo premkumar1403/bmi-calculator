@@ -1,0 +1,24 @@
+
+    @media screen and (min-width: 375px){
+    .bmi{
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+    }
+    @media screen and (min-width: 1440px)
+    {
+        .bmi{
+        padding-top: 200px;
+        padding-left: 630px;
+    }
+    }
+    @media screen and (min-width: 2560px){
+        .top{
+            font-size: 40px;
+        }
+        .bmi{
+             padding-top: 300px;
+             padding-left: 500px;
+        }
+       
+    }
