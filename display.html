@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keybord event</title>
+</head>
+<body>
+    <input id="input" type="value" onkeyup="display(event)" placeholder="enter value">
+    <h1 id="head"></h1>
+<script>
+    var put = document.getElementById("input")
+    var get = document.getElementById("head")
+    function display(event){
+       get.textContent=put.value
+    }
+</script>
+</body>
+</html>

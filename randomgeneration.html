@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random number check</title>
+</head>
+<body>
+   <input id="user" type="value" placeholder="type any value">
+    <button onclick="Check()">check</button>
+    <p id="result"></p>
+    <p id="result1"></p>
+<script>
+    
+    var us =document.getElementById("user")
+    var score=10
+   function Check(){
+    var rand = Math.floor(Math.random()*10)+1
+    console.log(rand)
+     var u = us.value
+    if(rand==u){
+       result1.textContent="correct"
+       if(score<10)
+    score=score+1
+    result.textContent="score:"+score
+}
+    else{
+        result1.textContent="wrong"
+        if(score>0 && score<=10)
+       score=score-1
+       result.textContent="score:"+score
+      
+    }
+
+   }
+    //var score=10
+    //if(user==b){
+       //console.log("you are correct")
+       // score++}
+   // else{
+       //score--
+   // }
+    
+
+
+</script>
+
+
+</body>
+</html>
